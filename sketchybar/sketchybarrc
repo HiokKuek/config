@@ -77,12 +77,13 @@ source $ITEM_DIR/aerospace.sh
 sketchybar --add bracket apps_windows left \
            --set apps_windows background.color=0x00000000
 
+brew upgrade --cask font-sketchybar-app-font
 # --- Right Side Items ---
 
 source $ITEM_DIR/calendar.sh
 source $ITEM_DIR/volume.sh
 source $ITEM_DIR/battery.sh
-source $ITEM_DIR/spotify.sh
+# source $ITEM_DIR/spotify.sh
 # source $ITEM_DIR/music.sh
 # source $ITEM_DIR/teleport.sh
 # source $ITEM_DIR/central.sh
